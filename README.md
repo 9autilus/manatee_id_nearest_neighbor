@@ -54,6 +54,9 @@ U3785.jpg Match not found in top  20
 The images were scaled to a fixed scale 64x32 and converted to grayscale. The closesest matches don't look close to test-image even visually.
 
 Possible improvements:
+
 1) Many of the test images have text overlaid on them. Nearest Neighbor will get affected by it.
+
 2) The outline of Manatee will considerably impact performance.
+
 3) Some target images have a different shade. And edge detector could have solved it, but some manatees have a wide scar represented as a black spot. That information will be lost if edge detector is directly used.
